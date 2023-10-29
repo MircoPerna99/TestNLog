@@ -1,4 +1,6 @@
 ﻿@page "/"
+@using TestNlog.Model
+@using System.Text.Json;
 @inject ILogger<Index> _logger
 
 <PageTitle>Index</PageTitle>
@@ -7,21 +9,40 @@
 
 Welcome to your new app.
 
+@if(_logs != null && _logs.Count > 0)
+{
+        @foreach (var log in _logs)
+            {
+                <p>@log.Level</p>
+             }
+ }
+
 <SurveyPrompt Title="How is Blazor working for you?" />
 
 @code
 {
+    private List<LogBase> _logs = new List<LogBase>();
+
     protected override async Task OnInitializedAsync()
     {
         _logger.LogInformation("Prova");
-        if (File.Exists(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs", "TestOwn.log")))
+        string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs", "logs.json");
+        if (File.Exists(path))
         {
             _logger.LogInformation("File Esiste");
-            string logContent = File.ReadAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs", "TestOwn.log"));
-            Console.WriteLine(logContent);
+            IEnumerable<string> lines = File.ReadLines(path);
+
+            if(lines != null && lines.Count() > 0)
+            {
+                foreach (var line in lines)
+                {
+                    var obj = JsonSerializer.Deserialize<LogBase>(line);
+                    _logs.Add(obj);
+                }
+
+            }
         }
         else
             _logger.LogError("File non esiste");
     }
-
     }
