@@ -1,0 +1,35 @@
+2023-10-29 17:00:29.3638 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-10-29 17:00:29.3825 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-10-29 17:00:29.3825 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-10-29 17:00:29.3947 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 17:00:29.4627 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=38, FilePath=/Users/mircoperna/Projects/TestNlog/TestNlog/bin/Debug/net7.0/NLog.config
+2023-10-29 17:00:29.4676 Info Configuration initialized.
+2023-10-29 17:00:29.6652 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=38, FilePath=/Users/mircoperna/Projects/TestNlog/TestNlog/bin/Debug/net7.0/NLog.config
+2023-10-29 17:04:55.3205 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-10-29 17:04:55.3398 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-10-29 17:04:55.3398 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-10-29 17:04:55.3526 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 17:04:55.4257 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=38, FilePath=/Users/mircoperna/Projects/TestNlog/TestNlog/bin/Debug/net7.0/NLog.config
+2023-10-29 17:04:55.4304 Info Configuration initialized.
+2023-10-29 17:04:55.5976 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=38, FilePath=/Users/mircoperna/Projects/TestNlog/TestNlog/bin/Debug/net7.0/NLog.config
+2023-10-29 17:06:33.8722 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-10-29 17:06:33.8961 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-10-29 17:06:33.8961 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-10-29 17:06:33.9076 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 17:06:33.9782 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=38, FilePath=/Users/mircoperna/Projects/TestNlog/TestNlog/bin/Debug/net7.0/NLog.config
+2023-10-29 17:06:33.9831 Info Configuration initialized.
+2023-10-29 17:06:34.1444 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=38, FilePath=/Users/mircoperna/Projects/TestNlog/TestNlog/bin/Debug/net7.0/NLog.config
+2023-10-29 17:11:37.5478 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-10-29 17:11:37.5668 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-10-29 17:11:37.5668 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-10-29 17:11:37.5791 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 17:11:37.6720 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=38, FilePath=/Users/mircoperna/Projects/TestNlog/TestNlog/bin/Debug/net7.0/NLog.config
+2023-10-29 17:11:37.6768 Info Configuration initialized.
+2023-10-29 17:11:37.8500 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=38, FilePath=/Users/mircoperna/Projects/TestNlog/TestNlog/bin/Debug/net7.0/NLog.config
+2023-10-29 17:12:44.8864 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-10-29 17:12:44.9090 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-10-29 17:12:44.9090 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-10-29 17:12:44.9222 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 17:12:44.9927 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=38, FilePath=/Users/mircoperna/Projects/TestNlog/TestNlog/bin/Debug/net7.0/NLog.config
+2023-10-29 17:12:44.9975 Info Configuration initialized.
+2023-10-29 17:12:45.1628 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=38, FilePath=/Users/mircoperna/Projects/TestNlog/TestNlog/bin/Debug/net7.0/NLog.config
